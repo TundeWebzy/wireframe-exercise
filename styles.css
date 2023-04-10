@@ -1,0 +1,65 @@
+html {
+  scroll-behavior: smooth;
+}
+
+.header-container,
+.main-container {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+header {
+  padding: 1rem 0;
+  background-color: darkgrey;
+  margin-bottom: 30px;
+}
+
+.header-container {
+  display: flex;
+  align-items: center;
+}
+
+.hero-container {
+  margin-bottom: 30px;
+}
+
+a {
+  padding: 0 2rem;
+}
+
+.inline-image {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.img-section {
+  display: flex;
+  justify-content: space-between;
+}
+
+.sub-section {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  margin-bottom: 30px;
+}
+
+.content-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  padding: 1rem;
+  margin-bottom: 30px;
+}
+
+.h2 {
+  overflow: scroll;
+  text-overflow: nowrap;
+}
+
+button {
+  background-color: darkgrey;
+  margin: 10px;
+  padding: 0.8rem;
+}
